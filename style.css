@@ -3,7 +3,8 @@
     margin: 0;
 }
 #main-background {
-    margin: 5px 20px 50px 20px;
+    max-height: 100vh;
+    margin: 5px 20px 100px 20px;
   background: 
     linear-gradient(
       rgba(0, 255, 255, 0.1), 
@@ -25,6 +26,7 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.14);
 }
 h1 {
     margin-top: 40vh;
+    font-weight: 500;
 }
 #imgOne {
     margin-top: 20vh;
@@ -38,3 +40,26 @@ h1 {
     background-color: #fe52c0;
     
 }
+.card {
+    margin-left: 40px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    max-width: 90vw;
+    box-shadow: -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.22); 
+box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.22);;
+}
+.card-img {
+    padding: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
