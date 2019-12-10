@@ -5,7 +5,7 @@
 #main-background {
     max-height: 100vh;
     margin: 5px 20px 100px 20px;
-  background: 
+    background: 
     linear-gradient(
       rgba(0, 255, 255, 0.1), 
       rgba(0, 255, 255, 0.1)
@@ -38,28 +38,129 @@ h1 {
 }
 .btn-pink {
     background-color: #fe52c0;
-    
 }
+
 .card {
     margin-left: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     border-radius: 25px;
     max-width: 90vw;
-    box-shadow: -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.22); 
-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.22);;
+    -webkit-box-shadow: -2px 6px 17px -5px rgba(217,217,217,1);
+-moz-box-shadow: -2px 6px 17px -5px rgba(217,217,217,1);
+box-shadow: -2px 6px 17px -5px rgba(217,217,217,1);
+}
+#ready-sec-h2 {
+    font-weight: 600;
+}
+#card-centered {
+    margin-top: -100px;
+    position: absolute;
+    border-radius: 25px;
+    padding: 40px;
+    width: 60vw;
+    height: 30vh;
+    justify-content: center;
+        -webkit-box-shadow: -2px 6px 17px -5px rgba(0,0,0,1);
+-moz-box-shadow: -2px 6px 17px -5px rgba(0,0,0,1);
+box-shadow: -2px 6px 17px -5px rgba(6,33,41,1);
 }
 .card-img {
     padding: 80px;
 }
+#benefits-section {
+    margin-bottom: 200px;
+}
+.last-box {
+    min-height: 25vh;
+    margin: 50px 0 0 0;
+    padding: 50px 0 0 0;
+}
+#btnInReadySection {
+    margin: 20px auto 0 auto;
+    text-align: center;
+    border-radius: 35px; 
+    padding: 20px 80px;
+    letter-spacing: .112em;
+    color: white; 
+    font-weight: 800;
+/*    max-width: 30vw;*/
+}
+#ready-section {
+    max-width: 600vw;
+    padding: 60px 10px 0 10px;
+    font-weight: 700;
+}
+.dark-bg {
+    background-color: #062129;
+    min-height: 30vh;
+    margin: 0;
+    padding: 100px 0 0 0;
+}
+.attribution {
+    background-color: #062129;
+    text-align: center;
+    margin: 20px 0 0;
+    padding: 5px;
+    color: grey;
+    font-weight: 300;
+    line-height: .5;
+}
+#icon-tribute {
+    margin: 0;
+    
+}
+.link-text {
+/*    text-decoration: none;*/
+    color: white;
+}
 
-
-
-
-
-
-
-
-
-
-
+footer {
+    color: white;
+    background-color: #062129;
+}
+ul {
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+}
+.icon-img {
+    max-height: 5vh;
+    margin: 0 15px 0 0;
+}
+#copyright {
+    vertical-align: text-bottom;
+    font-weight: 300;
+    text-align: end;
+    margin-right: 110px;
+    background-color: #062129;
+}
+.navbrand {
+    max-height: 25px;
+}
+#logo-in-footer {
+    margin: 0 0 0 20px;
+}
+#phone-icon {
+    margin-top: 138px;
+    margin-bottom: 8px;
+}
+#email-icon {
+    margin-top: 17px;
+}
+.padding-top {
+    margin-top: 90px;
+}
+.spaced-out {
+    padding: 10px 160px 10px 0;
+}
+.padding-top-plus {
+    margin-top: 124px;
+}
+/*
+@media screen and (min-width: 768px){
+    .icon-img {
+        text-align: center;
+    }
+}
+*/
 
