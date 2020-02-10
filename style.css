@@ -210,6 +210,9 @@ ul {
         min-width: 100vw;
     margin-top: 10em;
     }
+    #card-centered {
+    min-width: 80vw;
+    }
 }
 
 
