@@ -177,10 +177,6 @@ ul {
     .icon-img {
     text-align: center;
     }
-    .ready-section {
-    padding: 0;
-    margin: auto;
-    }
     #ready-sec-h2 {
     margin-top: 3em;
     }
@@ -211,6 +207,7 @@ ul {
     margin-top: -16em;
     }
     #ready-section {
+        min-width: 100vw;
     margin-top: 10em;
     }
 }
