@@ -213,6 +213,11 @@ ul {
     #card-centered {
     min-width: 80vw;
     }
+    .navbar.scrolled {
+    position: fixed;
+    margin: 0 20px 0 20px;
+
+}
 }
 
 
