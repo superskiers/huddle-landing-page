@@ -3,8 +3,9 @@
     margin: 0;
 }
 #main-background {
-    max-height: 100vh;
-    margin: 5px 20px 100px 20px;
+    max-height: 125vh;
+    padding-bottom: 10px;
+    margin: 5px 20px 18px 20px;
     background: 
     linear-gradient(
       rgba(0, 255, 255, 0.1), 
@@ -39,15 +40,20 @@ h1 {
 .btn-pink {
     background-color: #fe52c0;
 }
-
+#hero-section {
+    margin-bottom: 1em;
+}
 .card {
-    margin-left: 40px;
+    margin-left: auto;
     margin-bottom: 40px;
     border-radius: 25px;
     max-width: 90vw;
     -webkit-box-shadow: -2px 6px 17px -5px rgba(217,217,217,1);
 -moz-box-shadow: -2px 6px 17px -5px rgba(217,217,217,1);
 box-shadow: -2px 6px 17px -5px rgba(217,217,217,1);
+}
+.card-left {
+    margin-left: 40px;
 }
 #ready-sec-h2 {
     font-weight: 600;
@@ -68,7 +74,7 @@ box-shadow: -2px 6px 17px -5px rgba(6,33,41,1);
     padding: 80px;
 }
 #benefits-section {
-    margin-bottom: 200px;
+    margin-bottom: auto;
 }
 .last-box {
     min-height: 25vh;
@@ -83,9 +89,9 @@ box-shadow: -2px 6px 17px -5px rgba(6,33,41,1);
     letter-spacing: .112em;
     color: white; 
     font-weight: 800;
-/*    max-width: 30vw;*/
+
 }
-#ready-section {
+.ready-section {
     max-width: 600vw;
     padding: 60px 10px 0 10px;
     font-weight: 700;
@@ -110,7 +116,6 @@ box-shadow: -2px 6px 17px -5px rgba(6,33,41,1);
     
 }
 .link-text {
-/*    text-decoration: none;*/
     color: white;
 }
 
@@ -150,17 +155,65 @@ ul {
 .padding-top {
     margin-top: 90px;
 }
-.spaced-out {
-    padding: 10px 160px 10px 0;
-}
+
 .padding-top-plus {
     margin-top: 124px;
 }
-/*
-@media screen and (min-width: 768px){
+.table th {
+    border-style: hidden;
+}
+#ready-section {
+    margin-top: 10em;
+}
+.navbar.scrolled {
+    position: fixed;
+    margin: 0 20px 0 20px;
+    border-radius: 10px;
+    background: rgb(234,254,254);
+    transition: background 500ms;
+}
+/*--------MEDIA QUERIES---------*/
+@media screen and (max-width: 40em){
     .icon-img {
-        text-align: center;
+    text-align: center;
+    }
+    .ready-section {
+    padding: 0;
+    margin: auto;
+    }
+    #ready-sec-h2 {
+    margin-top: 3em;
+    }
+    #btnInReadySection {
+    margin-top: 3em;
+    padding: 10px;
+    }
+    #logo-in-footer {
+    margin: 0 22px 20px;
+    }
+    .contact-table {
+    margin-top: 1em;
+    }
+    #copyright {
+    margin-top: 1em;    
+    }
+    #imgOne {
+    max-height: 18em;
+        margin-bottom: 1em;
+    }
+    .card-left {
+    margin-left: auto;
+}
+    #benefits-section {
+    margin-top: 2em;
+    }
+    .negative {
+    margin-top: -16em;
+    }
+    #ready-section {
+    margin-top: 10em;
     }
 }
-*/
+
+
 
