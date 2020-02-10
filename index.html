@@ -25,17 +25,15 @@
 
 
         <section id="hero-section" class="container-fluid">
-            <div class="row align-items-center pb-5">
-                <div class="col-lg-6 order-md-1">
-                    <div id="heading-group" class="d-none d-lg-block mt-5 px-4">
+            <div class="row align-items-center">
+                <div class="col-lg-6 order-2 order-md-1">
+                    <div id="heading-group" class="negative">
                         <h1>Build The Community Your Fans Will Love</h1>
                         <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connectsions with your users as you engage in genuine discussion.</p>
-
-
                         <a class="btn btn-pink" id="btnInHero" href="#">Get Started For Free</a>
                     </div>
                 </div>
-                <div class="col-lg-6 order-1">
+                <div class="col-lg-6 order-1 order-md-2">
                     <img src="illustration-mockups.svg" alt="illustration mockups on devices" class="img-fluid" id="imgOne">
                 </div>
             </div>
@@ -44,7 +42,7 @@
     </div>
     <!--BENEFITS SECTION-->
     <section id="benefits-section" class="container-fluid align-items-center">
-        <div class="card">
+        <div class="card card-left">
             <div class="row align-items-center content ml-5">
                 <div class="col-md-6 order-2 order-md-1">
 
@@ -63,7 +61,7 @@
             </div>
         </div>
 
-        <div class="card">
+        <div class="card card-left">
             <div class="row align-items-center content">
                 <div class="col-md-6 order-2 order-md-2">
 
@@ -83,7 +81,7 @@
         </div>
 
 
-        <div class="card" id="last-main-card">
+        <div class="card card-left" id="last-main-card">
             <div class="row align-items-center content">
                 <div class="col-md-6 order-2 order-md-1">
 
@@ -118,51 +116,53 @@
             <div class="col-md-4 padding-top">
                 <a id="logo-in-footer" href="#"> <img src="logo-white.png" alt="Huddle logo" href="#sameSite" class="navbrand"></a>
                 <div class="container">                    
-                    <div class="row mt-4">
-                        <div class="col-md-1 mr-1">
-                            <a id="location-pin" href="#"> <img src="icon-location.svg" alt="location pin icon" class="icon-img"></a>
-                            
-                            <a href="#"> <img src="icon-phone.svg" alt="phone icon" class="icon-img" id="phone-icon"></a>
-                            
-                            <a href="#"><img src="icon-email.svg" alt="phone icon" class="icon-img" id="email-icon"> </a>
-                        </div>
+                    <table class="table contact-table">
+                        <thead></thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row"><a id="location-pin" href="#"> <img src="icon-location.svg" alt="location pin icon" class="icon-img"><span class="link-text">Lorem ipsum dolor sit amet, consectetur adipiscong elit, sed do eisudmod tempr incididunt ut labo dolore magne aliqua</span></a>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a id="phone-icon" href="#"> <img src="icon-phone.svg" alt="phone icon" class="icon-img">
+                                <span class="link-text">+1-543-123-4567</span></a>
+                                </th>
+                            </tr>
+                            <tr>
+                                <th scope="row"><a id="emailicon" href="#"><img src="icon-email.svg" alt="phone icon" class="icon-img">
+                                <span class="link-text">example@huddle.com</span>
+                                </a>
+                                </th>
+                            </tr>
+                        </tbody>
                         
-                        <div class="col-md-6">
-                            <p class="link-text">Lorem ipsum dolor sit amet, consectetur adipiscong elit, sed do eisudmod tempr incididunt ut labo dolore magne aliqua</p>
-                            
-                            <p class="link-text" id="phone-num">+1-543-123-4567</p>
-                            
-                            <p class="link-text">example@huddle.com</p>
                         
-                        </div>
-                    
-                    </div>
-
+                    </table>
                 </div>
             </div>
             <div class="col-md-4 padding-top-plus">
-                <table>
-                    <tr>
-                        <th></th>
-                        <td class="spaced-out">About Us</td>
-                        <td>Career</td>
-                    </tr>
-                    
-                    <tr>
-                        <th></th>
-                        <td class="spaced-out">What We Do</td>
-                        <td>Blog</td>
-                    </tr>
-                    
-                    <tr>
-                        <th></th>
-                        <td class="spaced-out">FAQ</td>
-                        <td>Contact Us</td>
-                    </tr>
-                
-                </table>
-                
+                <table class="table table-borderless">
+                    <thead></thead>
+                    <tbody>
+                        <tr>
+                            <th></th>
+                            <td class="spaced-out">About Us</td>
+                            <td>Career</td>
+                        </tr>
 
+                        <tr>
+                            <th></th>
+                            <td class="spaced-out">What We Do</td>
+                            <td>Blog</td>
+                        </tr>
+
+                        <tr>
+                            <th></th>
+                            <td class="spaced-out">FAQ</td>
+                            <td>Contact Us</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
 
             <div class="col-md-4 padding-top-plus">
@@ -197,5 +197,5 @@
             });
         });
     </script>
+   
 </body></html>
-
